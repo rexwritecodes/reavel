@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.inauguration-page {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.countdown-timer {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.inauguration-container {
+  background-color: rgba(52, 58, 64, 0.581);
+  color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #ffc107;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ffc107;
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.event-details p,
+.agenda ul li {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.event-details strong {
+  color: #ffc107;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.agenda ul li {
+  border-left: 3px solid #ffc107;
+  padding-left: 10px;
+}
+
+.speakers ul li {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contact-info p {
+  font-style: italic;
+}
